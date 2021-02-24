@@ -1,0 +1,77 @@
+sirve para administrar la construccion los informes y la documentacion de un proyecto
+para definir los perfiles de compilacion
+permite definir parametros de compilacion
+permite especificar configuracion de dependencias del proyecto
+facilita la gestion de dependencias
+inicializa la contribucion de proyectos sin pre configuraciones
+el archivo pom esta basado en un formato xml
+cuenta con un modelo de configuración de construccion simple
+maven nos ayuda a simplificar la construccion y administracion de proyectos basados en java
+esta compuesto por una interfaz strategy
+con strategy creamos diferentes clases que representan estrategias
+el patron de diseño strategy ayuda a definir diferentes comportamientos o funcionalidades que pueden ser cambiadas en tiempo de ejecucion
+otra implementacion se llama singleton perezosa
+existe una implementacion basica llamada singleton pattern
+nos asegura que solo un objeto sea creado y que solo exista una sola instancia del objeto para la clase
+Singleton tiene muchas formas de implementarse
+el objetivo de singleton es que una clase solo tenga una instancia
+singleton es uno de los patrones mas conocidos
+la interfaz Map asocia claves a valores
+la interfaz list define una sucesión de elementos
+la interfaz set define una colección que no puede contener elementos duplicados
+emplea la interfaz generica collection
+una coleccion representa un grupo de objetos
+la clase puede implementar cualquier cantidad de interfaces
+una interfaz es una clase abstracta y solo tiene metodos abstractos
+todos los metodos en una interfaz son implicitamente publicos y abstractos
+una clase java puede implementar multiples interfaces
+java usa la interfaz para implementar herencia multiple
+una interfaz es como cava class pero solo tiene constantes estáticas y metodo abstracto
+ng-template es una parte de un template y ng-container sirve para renderizar
+renderiza lo que contiene o bien la template nopeople
+puede renderizar templates dinamicamente
+parte de una template que luego se puede reutilizar y añadirse a otras templates
+redux es el contenedor del estado de tu aplicacion
+informacion relacionada al estado de la aplicacion
+redux es una librería de javascript
+un modulo sirve para agrupar distintos elementos en unos u otros
+generate es el comando para generar ese modulo nuevo en angular
+es uno de los elementos principales con los que podemos organizar el codigo
+los servicios seran consumidos por los componentes
+redux se basa en 3 ideas principales solo Existe una fuente de verdad estado es de solo lectura y los cambios se realizan con funciones puras
+mantiene logica de acceso a los datos y operativa relacionada con el negocio
+basicamente un servicio es un proveedor de datos
+en angular los componentes son un tipo de directiva
+las directivas son esencialmente instrucciones para manipular el dom
+en Angular se desarrolla en base a componentes
+mejoran sensiblemente la forma de organización de una aplicacion su mantenimiento reutilización del código etc
+pueden ser cosas diversas desde una sección de navegación a un formulario o un campo de formulario
+en angular los componentes son como etiquetas html
+
+java ofrece dos interfaces que serán claves para realizar un ordenamiento simple las cuales son comparator y comparable
+el escenario más simple para ordenar un lista es cuando sus elementos están preparados para ser ordenados
+para comprobar si dos set son iguales se comprobarán si todos los elementos que los componen son iguales sin importar en el orden
+los componentes pueden ser cosas diversas desde una sección de navegación a un formulario o un campo de formulario
+a diferencia de la interfaz set la interfaz list sí admite elementos duplicados
+una colección representa un grupo de objetos conocidos como elementos
+
+un pom.xml sirve para identificar dependencias y plugins maven resuelve las dependencias definidas en el pom
+el patron Strategy es un patrón de diseño que permite definir una estrategia a diferentes objetos y que luego cuando se los invoque el objeto haga lo que se definió en la estrategia
+buscaria ayuda de un amigo
+es el patron de los solteros
+en java List es una lista simplemente enlazada que permite repetidos
+en java Set representa a un conjunto es decir que es como una lista pero sin repetidos
+hay que desarrollar un codigo con un comparando cada objeto
+son lo mismo
+es una clase que sirve para organizar la aplicacion ordendandola en bloques
+una directiva es una instruccion que modifica el DOM
+
+
+
+bitcoin es una forma de dinero digital
+bitcoin se convirtió en la primera criptomoneda
+el blockchain es un libro mayor contable
+una firma digital es un mecanismo criptográfico empleado para verificar la autenticidad e integridad de datos digitales
+las firmas digitales a menudo se usan para lograr integridad de datos autenticación y no repudio
+el hashing es uno de los elementos principales de los sistemas de firma digital
+las firmas digitales a menudo se usan para lograr integridad de datos autenticación y no repudio

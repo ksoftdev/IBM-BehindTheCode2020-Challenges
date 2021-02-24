@@ -1,0 +1,1489 @@
+{
+  "intents": [
+    {
+      "intent": "Adios",
+      "examples": [
+        {
+          "text": "Adeus!"
+        },
+        {
+          "text": "adios"
+        },
+        {
+          "text": "ahi te ves"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "chao"
+        },
+        {
+          "text": "Ciao!"
+        },
+        {
+          "text": "goodbye"
+        },
+        {
+          "text": "hasta luego"
+        },
+        {
+          "text": "hasta mañana"
+        },
+        {
+          "text": "hasta pronto"
+        },
+        {
+          "text": "hasta siempre"
+        },
+        {
+          "text": "nos vemos"
+        },
+        {
+          "text": "Obrigado!"
+        },
+        {
+          "text": "que te vaya bien"
+        }
+      ]
+    },
+    {
+      "intent": "Agradecimiento",
+      "examples": [
+        {
+          "text": "Eres muy amable"
+        },
+        {
+          "text": "Gracias"
+        },
+        {
+          "text": "Muchas gracias"
+        },
+        {
+          "text": "Muy bien gracias"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Problem_report",
+      "examples": [
+        {
+          "text": "Al intentar entrar al SAP en la nube"
+        },
+        {
+          "text": "Al intentar entrar al SAP en la nube no se abre la web"
+        },
+        {
+          "text": "dejo de funcionar mi sistema de vacaciones"
+        },
+        {
+          "text": "El outlook esta cerrandose"
+        },
+        {
+          "text": "El portal de empleados no abre"
+        },
+        {
+          "text": "Esta fallando mi SAP"
+        },
+        {
+          "text": "La aplicacion de correo se crashea"
+        },
+        {
+          "text": "la aplicacion del correo no funciona"
+        },
+        {
+          "text": "La aplicacion de VPN se abre y se cierra"
+        },
+        {
+          "text": "Me dice que no puedo seguir hasta que active la licencia"
+        },
+        {
+          "text": "Me marca error de licensia"
+        },
+        {
+          "text": "me marca error de usuario y password"
+        },
+        {
+          "text": "mi outlook me marca que la licencia esta vencida"
+        },
+        {
+          "text": "mi usuario no me deja entrar a la VPN"
+        },
+        {
+          "text": "quiero reportar una falla de pega"
+        },
+        {
+          "text": "SAP no responde"
+        },
+        {
+          "text": "Tengo proglemas para ingresar a mi correo"
+        },
+        {
+          "text": "tengo un problema"
+        }
+      ]
+    },
+    {
+      "intent": "Request",
+      "examples": [
+        {
+          "text": "me podrias ayudar"
+        },
+        {
+          "text": "Me pueden dar acceso a portal de empleados"
+        },
+        {
+          "text": "me puedes ayudar"
+        },
+        {
+          "text": "necesito quitar un user"
+        },
+        {
+          "text": "No puedo entrar a la seccion de nomina en el portal"
+        },
+        {
+          "text": "No puedo entrar a la seccion de reportes en SAP"
+        },
+        {
+          "text": "Pueden agregar un usuario en Pega"
+        },
+        {
+          "text": "Pueden eliminar al usuario xyz"
+        },
+        {
+          "text": "quiero agregar otro usuario"
+        },
+        {
+          "text": "quiero hacer un pedido"
+        },
+        {
+          "text": "quiero poder ver la seccion de favoritos de pega"
+        },
+        {
+          "text": "quiero poder ver la seccion de favoritpos de pega"
+        },
+        {
+          "text": "Quiero que me den de alta un usuario en SAP"
+        },
+        {
+          "text": "quiero quitar todos los permisos a un usuario"
+        },
+        {
+          "text": "Quiero una nueva cuenta de correo"
+        },
+        {
+          "text": "tengo una solicitud"
+        }
+      ]
+    },
+    {
+      "intent": "Saludo",
+      "examples": [
+        {
+          "text": "Boa noite"
+        },
+        {
+          "text": "Boa tarde"
+        },
+        {
+          "text": "Bom dia"
+        },
+        {
+          "text": "buenas"
+        },
+        {
+          "text": "buenas noches"
+        },
+        {
+          "text": "buenas tardes"
+        },
+        {
+          "text": "buenos dias"
+        },
+        {
+          "text": "como estas"
+        },
+        {
+          "text": "hello"
+        },
+        {
+          "text": "hi"
+        },
+        {
+          "text": "hola"
+        },
+        {
+          "text": "holi"
+        },
+        {
+          "text": "Oi!"
+        },
+        {
+          "text": "Oi, como esta?"
+        },
+        {
+          "text": "Oi, tudo bem?"
+        },
+        {
+          "text": "que hay"
+        },
+        {
+          "text": "que onda"
+        },
+        {
+          "text": "que tal"
+        },
+        {
+          "text": "que tranza"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "Afirmacion",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "No",
+          "synonyms": [
+            "no",
+            "nop"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Si",
+          "synonyms": [
+            "afirmativo",
+            "claro",
+            "por supuesto",
+            "si"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "application",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "All",
+          "synonyms": [
+            "todas las aplicaciones",
+            "todas las apps"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": [
+            "correo",
+            "gmail",
+            "outlook"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Pega",
+          "synonyms": [
+            "Nuevo CRM",
+            "pega"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Portal",
+          "synonyms": [
+            "intranet",
+            "portal de empleados",
+            "portal interno"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "SAP",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Siebel",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Virtual private network",
+          "synonyms": [
+            "conexión segura",
+            "VPN"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "interactions",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Despedida",
+          "synonyms": [
+            "adios",
+            "bye",
+            "chao",
+            "goodbye",
+            "hasta luego"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Gesto",
+          "synonyms": [
+            "esta bien",
+            "gracias",
+            "lo siento",
+            "muchas gracias",
+            "muy amable",
+            "muy bien"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Saludo",
+          "synonyms": [
+            "hello",
+            "hi",
+            "hola",
+            "holi"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "problem",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "crash",
+          "synonyms": [
+            "bloqueos",
+            "la aplicacion se bloquea",
+            "la aplicacion se cierra",
+            "la app se bloquea",
+            "la app se cierra",
+            "la app truena",
+            "no abre la aplicacion",
+            "se bloquea constantemente",
+            "se cierra la app",
+            "se congela"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "licencia",
+          "synonyms": [
+            "activation key",
+            "clave de activacion",
+            "clave de validacion",
+            "codigo de activacion",
+            "licence key"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "login",
+          "synonyms": [
+            "autenticacion",
+            "autenticar",
+            "entrar",
+            "error al tratar de entrar",
+            "inicio de sesion"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "request",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "add",
+          "synonyms": [
+            "agregar",
+            "alta",
+            "añadir",
+            "nuevo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "change",
+          "synonyms": [
+            "cambiar",
+            "modificacion",
+            "modificar"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "delete",
+          "synonyms": [
+            "borrar",
+            "destruir",
+            "eliminar",
+            "quitar"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bienvenido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Bienvenido. Hoy seré tu asistente personal."
+              },
+              {
+                "text": "Bienvenido, Soy tu asistente de soporte."
+              },
+              {
+                "text": "Bienvenido! Dime ¿como puedo ayudarte?"
+              },
+              {
+                "text": "Bienvenido a Alestra!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bienvenido"
+    },
+    {
+      "type": "standard",
+      "title": "En otras cosas",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No le he entendido. Intente reformular la consulta."
+              },
+              {
+                "text": "¿Puede expresarse con otras palabras? No le he entendido."
+              },
+              {
+                "text": "No entendí el significado."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "En otras cosas",
+      "previous_sibling": "node_6_1598120833833",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1598049247101",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1598049247132",
+      "previous_sibling": "handler_3_1598049247132"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es necesario que me digas el nombre de la aplicación sobre la cual se realizara la operación."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1598045119823",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1598049295495"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Será necesario que especifiques el tipo de solicitud y  el nombre del usuario sobre el cual se realizará la solicitud."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1598030418190",
+      "disabled": true,
+      "event_name": "focus",
+      "dialog_node": "handler_1_1598031567467"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1598049257624",
+      "context": {
+        "application": "@application"
+      },
+      "conditions": "@application",
+      "event_name": "input",
+      "dialog_node": "handler_1_1598049257632"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_6_1598120870302",
+      "event_name": "input",
+      "dialog_node": "handler_1_1598120870346"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1596837502911",
+      "context": {
+        "application": "@application"
+      },
+      "conditions": "@application",
+      "event_name": "input",
+      "dialog_node": "handler_2_1596837502931"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Que usuario quieres agregar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_2_1598034674879",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1598034674895",
+      "previous_sibling": "handler_3_1598034674895"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿En que aplicacion deseas realizar la operacion?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1598049306182",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1598049306191",
+      "previous_sibling": "handler_5_1598049306191"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1596837532517",
+      "context": {
+        "problem": "@problem"
+      },
+      "conditions": "@problem",
+      "event_name": "input",
+      "dialog_node": "handler_3_1596837532527"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1598034674879",
+      "context": {
+        "request_add": "@request"
+      },
+      "conditions": "@request",
+      "event_name": "input",
+      "dialog_node": "handler_3_1598034674895"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1598049247101",
+      "context": {
+        "request_change": "@request:change"
+      },
+      "conditions": "@request:change",
+      "event_name": "input",
+      "dialog_node": "handler_3_1598049247132"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿En que aplicacion deseas realizar el cambio?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_9_1598049257624",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1598049257632",
+      "previous_sibling": "handler_1_1598049257632"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_6_1598120870302",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1598120870346",
+      "previous_sibling": "handler_1_1598120870346"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Cuál aplicación está presentando problema?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_6_1596837502911",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1596837502931",
+      "previous_sibling": "handler_2_1596837502931"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Que usuario quieres eliminar?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_8_1598034820719",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1598034820735",
+      "previous_sibling": "handler_8_1598034820735"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1598049306182",
+      "context": {
+        "application": "@application"
+      },
+      "conditions": "@application",
+      "event_name": "input",
+      "dialog_node": "handler_5_1598049306191"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1598050184489",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1598050184506",
+      "previous_sibling": "handler_8_1598050184506"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1598034458509",
+      "context": {
+        "request_change": "@request"
+      },
+      "conditions": "@request",
+      "event_name": "input",
+      "dialog_node": "handler_6_1598034458518"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿En que aplicacion deseas realizar la accion?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1598049108863",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1598049108871",
+      "previous_sibling": "handler_9_1598049108871"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1598118763292",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1598118763331",
+      "previous_sibling": "handler_9_1598118763331"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1598049295989",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1598049296020",
+      "previous_sibling": "handler_8_1598049296020"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "text": {
+          "values": [
+            "¿Que tipo de problema estas enfrentando?"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "slot_4_1596837532517",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1596837532527",
+      "previous_sibling": "handler_3_1596837532527"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1598034820719",
+      "context": {
+        "request_delete": "@request"
+      },
+      "conditions": "@request",
+      "event_name": "input",
+      "dialog_node": "handler_8_1598034820735"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es necesario que me digas el nombre de la aplicación sobre la cual se realizara la operación."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1598045131793",
+      "event_name": "focus",
+      "dialog_node": "handler_8_1598049088934"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_2_1598049295989",
+      "context": {
+        "request_delete": "@request:delete"
+      },
+      "conditions": "@request:delete",
+      "event_name": "input",
+      "dialog_node": "handler_8_1598049296020"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1598050184489",
+      "context": {
+        "request_add": "@request:add"
+      },
+      "conditions": "@request:add",
+      "event_name": "input",
+      "dialog_node": "handler_8_1598050184506"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "¿Que usuario quieres modificar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_1_1598034458509",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1598034458518",
+      "previous_sibling": "handler_6_1598034458518"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1598049108863",
+      "context": {
+        "application": "@application"
+      },
+      "conditions": "@application",
+      "event_name": "input",
+      "dialog_node": "handler_9_1598049108871"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Es necesario que me digas el nombre de la aplicación sobre la cual se realizara la modificación."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1598045117676",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1598049246605"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_7_1598118763292",
+      "event_name": "input",
+      "dialog_node": "handler_9_1598118763331"
+    },
+    {
+      "type": "standard",
+      "title": "Realizar una solicitud",
+      "output": {
+        "generic": []
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "next_step": {
+        "behavior": "skip_user_input"
+      },
+      "conditions": "#Request",
+      "dialog_node": "node_10_1598030418190",
+      "previous_sibling": "node_5_1596837496528"
+    },
+    {
+      "type": "frame",
+      "title": "Modificar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se va realizar un <? $request_change ?> en <? $application ?>.  ¿Deseas crear un reporte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1598030418190",
+      "conditions": "@request:change",
+      "dialog_node": "node_2_1598045117676",
+      "previous_sibling": "node_5_1598045131793"
+    },
+    {
+      "type": "standard",
+      "title": "Validacion",
+      "output": {},
+      "parent": "node_8_1598045119823",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Afirmacion",
+      "dialog_node": "node_2_1598045728319",
+      "previous_sibling": "slot_9_1598049306182"
+    },
+    {
+      "type": "frame",
+      "title": "Reportar un problema",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu problema es <? $problem ?> en <? $application ?>.  ¿Deseas crear un reporte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "#Problem_report",
+      "dialog_node": "node_5_1596837496528",
+      "previous_sibling": "node_8_1598029338841"
+    },
+    {
+      "type": "frame",
+      "title": "Agregar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se va realizar un <? $request_add ?> en <? $application ?>.  ¿Deseas crear un reporte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1598030418190",
+      "conditions": "@request:add",
+      "dialog_node": "node_5_1598045131793",
+      "previous_sibling": "slot_8_1598034820719"
+    },
+    {
+      "type": "standard",
+      "title": "Validacion",
+      "output": {},
+      "parent": "node_5_1598045131793",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Afirmacion",
+      "dialog_node": "node_5_1598045790568",
+      "previous_sibling": "slot_7_1598050184489"
+    },
+    {
+      "type": "standard",
+      "title": "Adios",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hasta luego, ha sido un placer ayudarte!"
+              },
+              {
+                "text": "Hasta la proxima."
+              },
+              {
+                "text": "Adiós! Gracias por usar nuestros servicios."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Adios || @interactions:Despedida",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_6_1598029486951",
+      "previous_sibling": "node_10_1598030418190"
+    },
+    {
+      "type": "standard",
+      "title": "Responder Gestos",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@interactions:Gesto",
+      "dialog_node": "node_6_1598120833833",
+      "previous_sibling": "node_6_1598029486951"
+    },
+    {
+      "type": "standard",
+      "title": "Afirmacion",
+      "parent": "node_5_1596837496528",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Afirmacion",
+      "dialog_node": "node_7_1596837653731",
+      "previous_sibling": "response_6_1597435247596"
+    },
+    {
+      "type": "standard",
+      "title": "Saludo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hola. ¿Cómo puedo ayudarle?"
+              },
+              {
+                "text": "Buen día. Por favor dime ¿como puedo ayudarte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#Saludo || @interactions:Saludo",
+      "dialog_node": "node_8_1598029338841",
+      "previous_sibling": "Bienvenido"
+    },
+    {
+      "type": "frame",
+      "title": "Eliminar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se va realizar un <? $request_delete ?> en <? $application ?>.  ¿Deseas crear un reporte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1598030418190",
+      "conditions": "@request:delete",
+      "dialog_node": "node_8_1598045119823",
+      "previous_sibling": "node_2_1598045117676"
+    },
+    {
+      "type": "standard",
+      "title": "Validacion",
+      "parent": "node_2_1598045117676",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Afirmacion",
+      "dialog_node": "node_9_1598030523654",
+      "previous_sibling": "slot_9_1598049257624"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se ha registrado la solicitud bajo el número de ticket: <?new Random().nextInt(1000)?>. <? context.clear() ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1598045728319",
+      "conditions": "@Afirmacion:Si",
+      "dialog_node": "response_3_1598045728333"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No se ha registrado la solicitud."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1598045728319",
+      "conditions": "@Afirmacion:No",
+      "dialog_node": "response_4_1598045728333",
+      "previous_sibling": "response_3_1598045728333"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hasta luego"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1596837653731",
+      "conditions": "@Afirmacion:No",
+      "dialog_node": "response_5_1596837703108",
+      "previous_sibling": "response_8_1596837677611"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se va a agregar el usuario $request_add, ¿Es correcto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1598030418190",
+      "disabled": true,
+      "conditions": "@request:add",
+      "dialog_node": "response_5_1598032399875",
+      "previous_sibling": "response_9_1598030451325"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se va a eliminar el usuario $request_delete, ¿Es correcto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_10_1598030418190",
+      "disabled": true,
+      "conditions": "@request:delete",
+      "dialog_node": "response_5_1598032428812",
+      "previous_sibling": "response_5_1598032399875"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu problema es <? $problem ?> en <? $application ?>, y solicita acceso al report.  ¿Deseas crear un reporte?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1596837496528",
+      "disabled": true,
+      "conditions": "",
+      "dialog_node": "response_6_1597435247596"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se ha registrado la solicitud bajo el número de ticket: <?new Random().nextInt(1000)?>. <? context.clear() ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1598045790568",
+      "conditions": "@Afirmacion:Si",
+      "dialog_node": "response_6_1598045790578"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ha sido un placer!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_6_1598120833833",
+      "conditions": "#Agradecimiento",
+      "dialog_node": "response_6_1598120905887"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No se ha registrado la solicitud."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_5_1598045790568",
+      "conditions": "@Afirmacion:No",
+      "dialog_node": "response_7_1598045790578",
+      "previous_sibling": "response_6_1598045790578"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Tu número de reporte es:<?new Random().nextInt(1000)?>. <? context.clear() ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1596837653731",
+      "conditions": "@Afirmacion:Si",
+      "dialog_node": "response_8_1596837677611"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se ha registrado la solicitud bajo el número de ticket: <?new Random().nextInt(1000)?>. <? context.clear() ?>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1598030523654",
+      "conditions": "@Afirmacion:Si",
+      "dialog_node": "response_8_1598030546391"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Se va a modificat el usuario $request_change, ¿Es correcto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_10_1598030418190",
+      "disabled": true,
+      "conditions": "@request:change",
+      "dialog_node": "response_9_1598030451325",
+      "previous_sibling": "node_8_1598045119823"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "No se ha registrado la solicitud."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1598030523654",
+      "conditions": "@Afirmacion:No",
+      "dialog_node": "response_9_1598030568611",
+      "previous_sibling": "response_8_1598030546391"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1598030418190",
+      "variable": "$request_change",
+      "conditions": "@request:change",
+      "dialog_node": "slot_1_1598034458509",
+      "previous_sibling": "handler_1_1598031567467"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1598030418190",
+      "variable": "$request_add",
+      "conditions": "@request:add",
+      "dialog_node": "slot_2_1598034674879",
+      "previous_sibling": "slot_1_1598034458509"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1598045119823",
+      "variable": "$request_delete",
+      "dialog_node": "slot_2_1598049295989",
+      "previous_sibling": "handler_10_1598049295495"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1596837496528",
+      "variable": "$problem",
+      "dialog_node": "slot_4_1596837532517",
+      "previous_sibling": "slot_6_1596837502911"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1598045131793",
+      "variable": "$application",
+      "dialog_node": "slot_4_1598049108863",
+      "previous_sibling": "handler_8_1598049088934"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_5_1596837496528",
+      "variable": "$application",
+      "dialog_node": "slot_6_1596837502911",
+      "previous_sibling": "node_7_1596837653731"
+    },
+    {
+      "type": "slot",
+      "parent": "node_6_1598120833833",
+      "dialog_node": "slot_6_1598120870302",
+      "previous_sibling": "response_6_1598120905887"
+    },
+    {
+      "type": "slot",
+      "parent": "node_5_1598045131793",
+      "variable": "$request_add",
+      "dialog_node": "slot_7_1598050184489",
+      "previous_sibling": "slot_4_1598049108863"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1598029338841",
+      "dialog_node": "slot_7_1598118763292"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1598030418190",
+      "variable": "$request_delete",
+      "conditions": "@request:delete",
+      "dialog_node": "slot_8_1598034820719",
+      "previous_sibling": "slot_2_1598034674879"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1598045117676",
+      "variable": "$request_change",
+      "dialog_node": "slot_9_1598049247101",
+      "previous_sibling": "handler_9_1598049246605"
+    },
+    {
+      "type": "slot",
+      "parent": "node_2_1598045117676",
+      "variable": "$application",
+      "dialog_node": "slot_9_1598049257624",
+      "previous_sibling": "slot_9_1598049247101"
+    },
+    {
+      "type": "slot",
+      "parent": "node_8_1598045119823",
+      "variable": "$application",
+      "dialog_node": "slot_9_1598049306182",
+      "previous_sibling": "slot_2_1598049295989"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "Agregar"
+    },
+    {
+      "text": "SAP"
+    },
+    {
+      "text": "si"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Querías decir:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Ninguna de las anteriores"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "human_agent_assist": {
+      "prompt": "Querías decir:"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Alestra-Oficial",
+  "language": "es",
+  "description": ""
+}

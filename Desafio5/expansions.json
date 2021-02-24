@@ -1,0 +1,141 @@
+{
+    "expansions": [
+        {
+        "input_terms": [
+            "pom"
+        ],
+        "expanded_terms": [
+            "pom",
+            "pom.xml",
+            "POM",
+            "project object model"
+        ]
+        },
+        {
+        "input_terms": [
+            "DOM"
+        ],
+        "expanded_terms": [
+            "DOM",
+            "dom",
+            "document object model"
+        ]
+        },
+        {
+        "input_terms": [
+            "modifica"
+        ],
+        "expanded_terms": [
+            "modifica",
+            "manipular"
+        ]
+        },
+        {
+        "input_terms": [
+            "directiva"
+        ],
+        "expanded_terms": [
+            "directiva",
+            "directivas",
+            "directive",
+            "directives"
+        ]
+        },
+        {
+        "input_terms": [
+            "instrucción"
+        ],
+        "expanded_terms": [
+            "instrucción",
+            "instrucciones"
+        ]
+        },
+        {
+        "input_terms": [
+            "patrón"
+        ],
+        "expanded_terms": [
+            "patrón Strategy",
+            "patrón Singleton",
+            "patrón de diseño"
+        ]
+        },
+        {
+        "input_terms": [
+            "redux"
+        ],
+        "expanded_terms": [
+            "redux",
+            "patrón redux"
+        ]
+        },
+        {
+        "input_terms": [
+            "Java"
+        ],
+        "expanded_terms": [
+            "Java",
+            "Java Set",
+            "Java Map",
+            "Java List",
+            "Java Class"
+        ]
+        },
+        {
+        "input_terms": [
+            "conjunto"
+        ],
+        "expanded_terms": [
+            "conjunto",
+            "colección"
+        ]
+        },
+        {
+        "input_terms": [
+            "repetidos"
+        ],
+        "expanded_terms": [
+            "repetidos",
+            "duplicados",
+            "duplicadas"
+        ]
+        },
+        {
+        "input_terms": [
+            "elementos"
+        ],
+        "expanded_terms": [
+            "elementos",
+            "claves"
+        ]
+        },
+        {
+        "input_terms": [
+            "aplicación"
+        ],
+        "expanded_terms": [
+            "aplicación",
+            "aplicaciones"
+        ]
+        },
+        {
+        "input_terms": [
+            "ordenando"
+        ],
+        "expanded_terms": [
+            "ordenando",
+            "ordernar",
+            "organizar"
+        ]
+        },
+        {
+        "input_terms": [
+            "bloques"
+        ],
+        "expanded_terms": [
+            "bloques",
+            "agrupar"
+        ]
+        }
+    ]
+}
